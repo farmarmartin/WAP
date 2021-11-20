@@ -1,0 +1,84 @@
+body{
+    background: #003CFF;
+}
+
+.button{
+    background-color: cadetblue;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    position: relative;
+    left: 40%;
+    z-index: 10;
+}
+
+.button2{
+    background-color: cadetblue;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    position: relative;
+    left: 45%;
+    z-index: 10;
+}
+
+.desert{
+    width: 1280px;
+    height: 300px;
+    background: #E8E800;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.pyramid{
+    width: 300px;
+    height: 300px;
+    background:#EBB842;
+    transform: rotate(45deg);
+    z-index: 0;
+    position: absolute;
+    top: 170px;
+    left: 70px;
+}
+
+.pyramid2{
+    width: 150px;
+    height: 150px;
+    background:#E2B240;
+    transform: rotate(45deg);
+    z-index: 0;
+    position: absolute;
+    top: 240px;
+    left: 700px;
+}
+
+.sun{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 174, 0);
+    border-radius: 100%;
+    opacity: 100%;
+    z-index: 3;
+    position: absolute;
+    left: 900px;
+}
+
+.moon{
+    width: 30px;
+    height: 50px;
+    background: rgb(247, 201, 159);
+    border-radius: 0px 30px 30px 0px;
+    opacity: 100%;
+    z-index: 2;
+    position: absolute;
+    left: 900px;
+    opacity: 0%;
+}
