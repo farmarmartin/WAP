@@ -1,3 +1,6 @@
+body{
+    background: black;
+}
 .bodRotace{
     width: 500px;
     height: 500px;
@@ -7,7 +10,8 @@
     top: calc(50% - 250px);
     left: calc(50% - 250px);
     animation-name: rotate;
-    animation-duration: 3600s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .planeta1{
     width: 50px;
@@ -17,6 +21,10 @@
 }
 
 @keyframes rotate {
-    from {transform:rotate(0deg);}
-    to {transform: rotate(360deg);}
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
