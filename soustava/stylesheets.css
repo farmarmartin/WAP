@@ -1,23 +1,123 @@
 body{
-    background: black;
+    background:	#000000;
+}
+.sun{
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 187, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    box-shadow: 0px 0px 20px 7px yellow;
+    animation-name: rotate;
+    animation-duration: 0.1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 .bodRotace{
-    width: 500px;
-    height: 500px;
-    background: #000000;
+    width: 400px;
+    height: 400px;
+    background: transparent;
     border-radius: 0%;
     position: absolute;
-    top: calc(50% - 250px);
-    left: calc(50% - 250px);
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
     animation-name: rotate;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+.bodRotace2{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border-radius: 0%;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    animation-name: rotate;
+    animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.bodRotace3{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border-radius: 0%;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    animation-name: rotate;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotateMoon{
+    width: 50px;
+    height: 50px;
+    animation-name: rotate;
+    animation-duration: 0.1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 .planeta1{
     width: 50px;
     height: 50px;
-    background: red;
+    background: rgb(1, 1, 95);
     border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px blue;
+    
+}
+
+.planeta2{
+    width: 40px;
+    height: 40px;
+    background: rgb(112, 50, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: calc(20% - 20px);
+    top: 15%;
+    box-shadow: 1px 1px 1px 1px rgb(255, 182, 122)
+}
+
+.planeta3{
+    width: 20px;
+    height: 20px;
+    background: rgb(59, 35, 26);
+    border-radius: 50%;
+    position:absolute;
+    top:calc(38% - 10px);
+    left:calc(38% - 10px);
+    box-shadow: 1px 1px 1px 1px rgb(189, 131, 109)
+}
+.moon{
+    width: 10px;
+    height: 10px;
+    background: rgb(77, 77, 77);
+    border-radius: 50%;
+    position:absolute;
+    top: -20px;
+}
+.kolo{
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 187, 0);
+    border-radius: 100%;
+    position: absolute;
+    top:14%
+}
+.kolo2{
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 187, 0);
+    border-radius: 100%;
+    position: absolute;
+    bottom:13%
 }
 
 @keyframes rotate {
@@ -25,6 +125,6 @@ body{
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
     }
 }
