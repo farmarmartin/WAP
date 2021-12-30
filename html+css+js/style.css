@@ -10,8 +10,8 @@ body{
     border-radius: 5px;
     text-align: center;
     font-family: 'Courier New', monospace;
-    position: relative;
-    left: 40%;
+    position: absolute;
+    left: calc(50% - )
     z-index: 10;
 }
 
