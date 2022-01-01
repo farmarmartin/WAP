@@ -1,11 +1,47 @@
-body{ background-color:black;  font-family:'Courier New',Courier,monospace;  text-align:center;  color:white}
+body {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+}
 
-body main{ position:absolute;  top:15em}
+body main {
+  position: absolute;
+  top: 15em;
+}
 
-body main table{ border:3px solid white;  border-collapse:collapse;  width:50%;  text-align:center;  position:absolute;  left:25%;  bottom:-5em}
+body main table {
+  border: 3px solid white;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  left: 25%;
+  bottom: -5em;
+}
 
-body main table th, body main table td{ border:2px solid white;  border-collapse:collapse}
+body main table th, body main table td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
 
-body footer{ width:100%;  height:6%;  background-color:#000f00;  position:absolute;  bottom:-20em;  left:0px;  opacity:70%}
+body footer {
+  width: 100%;
+  height: 6%;
+  background-color: #000f00;
+  position: absolute;
+  bottom: -20em;
+  left: 0px;
+  opacity: 70%;
+}
 
-body button{ width:10em;  height:5em;  top:11em;  position:absolute;  left:calc(50% - 5em);  background-color:darkslategrey;  border-radius:5%}
+body button {
+  width: 10em;
+  height: 5em;
+  top: 11em;
+  position: absolute;
+  left: calc(50% - 5em);
+  background-color: darkslategrey;
+  border-radius: 5%;
+}
+/*# sourceMappingURL=style3.css.map */
