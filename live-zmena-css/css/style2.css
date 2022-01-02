@@ -1,6 +1,6 @@
 body {
   background-color: #2b2b2b;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Brush Script MT', cursive;
   text-align: center;
   color: #1a44b6;
 }
@@ -41,7 +41,9 @@ body button {
   top: 11em;
   position: absolute;
   left: calc(50% - 5em);
-  background-color: darkslategrey;
+  color: white;
+  font-family: 'Brush Script MT', cursive;
+  background-color: #0a43ff;
   border-radius: 5%;
 }
 /*# sourceMappingURL=style2.css.map */

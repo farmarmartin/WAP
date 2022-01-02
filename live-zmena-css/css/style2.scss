@@ -1,6 +1,6 @@
 body{
     background-color: rgb(43, 43, 43);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Brush Script MT', cursive;
     text-align: center;
     color: rgb(26, 68, 182);
     
@@ -38,7 +38,9 @@ body{
         top: 11em;
         position:absolute;
         left: calc(50% - 5em);
-        background-color: darkslategrey;
+        color:rgb(255, 255, 255);
+        font-family: 'Brush Script MT', cursive;
+        background-color: rgb(10, 67, 255);
         border-radius: 5%;
     }
 }

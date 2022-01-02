@@ -38,7 +38,9 @@ body{
         top: 11em;
         position:absolute;
         left: calc(50% - 5em);
-        background-color: darkslategrey;
+        color:rgb(255, 255, 255);
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(10, 67, 255);
         border-radius: 5%;
     }
 }

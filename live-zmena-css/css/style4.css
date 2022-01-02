@@ -1,6 +1,6 @@
 body {
-  background-color: #001600;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #04753d;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   text-align: center;
   color: white;
 }
@@ -42,8 +42,9 @@ body button {
   position: absolute;
   left: calc(50% - 5em);
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
   background-color: #0a43ff;
   border-radius: 5%;
 }
-/*# sourceMappingURL=style1.css.map */
+/*# sourceMappingURL=style4.css.map */

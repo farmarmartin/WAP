@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Helvetica', sans-serif;
   text-align: center;
   color: white;
 }
@@ -41,7 +41,9 @@ body button {
   top: 11em;
   position: absolute;
   left: calc(50% - 5em);
-  background-color: darkslategrey;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #0a43ff;
   border-radius: 5%;
 }
 /*# sourceMappingURL=style3.css.map */
