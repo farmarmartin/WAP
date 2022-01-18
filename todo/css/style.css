@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  background-color: #000111;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: #0ebe08;
+}
+.myform{
+  margin-top:3rem;
+}
+.data{
+  height: 2rem;
+  background-color: #79a377;
+  border-radius: 0.2rem;
+  border-color: rgb(255, 255, 255);
+}
+.btn{
+  width: 4rem;
+  height: 2rem;
+  background-color: #0848be;
+  color: #0ebe08;
+  border-radius: 0.3rem;
+}
