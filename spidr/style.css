@@ -1,0 +1,48 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  color: white;
+  background-color: #0f0f0f;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#04001b));
+  background-image: linear-gradient(to bottom right, black, #04001b);
+  background-size: 300%;
+  -webkit-animation: animate 10s infinite alternate;
+          animation: animate 10s infinite alternate;
+  margin: 1;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+body h1 {
+  text-align: center;
+}
+
+body .pic {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  right: 1em;
+  top: 5em;
+  border-radius: 1em;
+}
+
+body .popis {
+  width: 75%;
+}
+/*# sourceMappingURL=style.css.map */

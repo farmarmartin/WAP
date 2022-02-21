@@ -1,0 +1,32 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    background-image: linear-gradient(to bottom right, black, rgb(4, 0, 27));
+    background-size: 300%;
+    @keyframes animate {
+        0% {
+            background-position: right;
+        }
+        100%{
+            background-position: left;
+        }
+      }
+    animation: animate 10s infinite alternate;
+    margin: 1;
+    h1{
+        text-align: center;
+    }
+    .pic{
+        width: 20%;
+        height: auto;
+        position: absolute;
+        right: 1em;
+        top: 5em;
+        border-radius: 1em;
+    }
+    .popis{
+        width: 75%;
+    }
+}
