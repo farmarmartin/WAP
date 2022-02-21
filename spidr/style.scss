@@ -3,8 +3,8 @@ body{
     font-size: larger;
     color: white;
     background-color: rgb(15, 15, 15);
-    background-image: linear-gradient(to bottom right, black, rgb(4, 0, 27));
-    background-size: 300%;
+    background-image: linear-gradient(to bottom right, black, rgb(4, 0, 36));
+    background-size: 5 00%;
     @keyframes animate {
         0% {
             background-position: right;
@@ -19,14 +19,19 @@ body{
         text-align: center;
     }
     .pic{
-        width: 20%;
+        width: 20em;
+        max-width: 100%;
         height: auto;
-        position: absolute;
-        right: 1em;
-        top: 5em;
-        border-radius: 1em;
+        position: relative;
+        left: calc(50% - 10em);
+        border-radius: 1.5em;
+        padding: 1em;
     }
     .popis{
-        width: 75%;
+        width: 100%;
+        position: relative;
+        a{
+            color: white;
+        }
     }
 }

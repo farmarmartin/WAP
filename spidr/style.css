@@ -3,9 +3,9 @@ body {
   font-size: larger;
   color: white;
   background-color: #0f0f0f;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#04001b));
-  background-image: linear-gradient(to bottom right, black, #04001b);
-  background-size: 300%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#040024));
+  background-image: linear-gradient(to bottom right, black, #040024);
+  background-size: 5 00%;
   -webkit-animation: animate 10s infinite alternate;
           animation: animate 10s infinite alternate;
   margin: 1;
@@ -34,15 +34,21 @@ body h1 {
 }
 
 body .pic {
-  width: 20%;
+  width: 20em;
+  max-width: 100%;
   height: auto;
-  position: absolute;
-  right: 1em;
-  top: 5em;
-  border-radius: 1em;
+  position: relative;
+  left: calc(50% - 10em);
+  border-radius: 1.5em;
+  padding: 1em;
 }
 
 body .popis {
-  width: 75%;
+  width: 100%;
+  position: relative;
+}
+
+body .popis a {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
